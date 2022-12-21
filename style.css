@@ -1,0 +1,122 @@
+* {
+  --body-background: #0e0e0e;
+  --color-logo: #ff5b50;
+  --card-color: #252525;
+  --text-color: #fff;
+  --subtitle-color: #5a5757;
+  --black-text: #000;
+  --color-input: #0d0d0d;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--text-color);
+}
+
+body {
+  background-image: url('./assets/background.png');
+}
+
+nav {
+  margin: 60px 80px 90px 80px;
+}
+
+ul {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  font-size: 18px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+button {
+  padding: 10px;
+  height: 100%;
+  color: var(--black-text);
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: gray;
+}
+
+.div-nav {
+  display: flex;
+  flex: 1;
+}
+
+#div-botao {
+  display: flex;
+  justify-content: end;
+}
+
+.other-nav1 {
+  margin-right: 3.75rem;
+}
+.other-nav3 {
+  margin-left: 3.75rem;
+}
+
+#div-itens {
+  justify-content: center;
+}
+
+.logo-rosa {
+  color: var(--color-logo);
+}
+
+.img-botao {
+  width: 22px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-right: 40px;
+  margin-left: 40px;
+  width: 100%;
+}
+#main-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+#div-avatar-text {
+  width: 90%;
+}
+
+#div-avatar {
+  display: flex;
+  align-items: end;
+}
+.p-main-1 {
+  font-size: 18px;
+}
+#p1 {
+  margin-bottom: 40px;
+}
+
+#p2{
+  text-align: bottom;
+}
