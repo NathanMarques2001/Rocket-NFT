@@ -15,10 +15,12 @@
 
 body {
   background-image: url('./assets/background.png');
+  background-position: top center;
 }
 
 nav {
   margin: 5%;
+  margin-top: 4%;
   margin-bottom: 7%;
 }
 
@@ -122,26 +124,23 @@ h1 {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   gap: 0.8rem;
-  margin-top: 7%;
-  margin-right: 5%;
-  margin-left: 5%;
+  margin: 7% 5% 0 5%;
 }
 
-#gallery-2 {
-  margin-top: 4.5%;
-}
-
-.img-gallery {
-  width: 24%;
+.img-gallery{
+  width: 250px;
   height: auto;
+  margin-bottom: 3%;
 }
 
 #main-2 {
   background-color: var(--body-background);
   border-bottom: 2px solid var(--subtitle-color);
+  border-top: 2px solid var(--subtitle-color);
   display: flex;
+  width: 100%;
 }
 
 #vendas-artes {
@@ -197,6 +196,7 @@ h1 {
 #main-3 {
   background-color: var(--body-background);
   padding: 150px 5% 150px 5%;
+  width: 100%;
 }
 
 #astronautas-titulo {
