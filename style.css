@@ -91,9 +91,12 @@ button:hover {
 
 h1 {
   font-size: 50px;
+}
+#apresentation {
   margin-right: 3%;
   margin-left: 3%;
 }
+
 #main-1 {
   display: flex;
   align-items: center;
@@ -116,21 +119,190 @@ h1 {
   text-align: bottom;
 }
 
-.gallery{
+.gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: .8rem;
+  gap: 0.8rem;
   margin-top: 7%;
   margin-right: 5%;
   margin-left: 5%;
 }
 
-#gallery-2{
+#gallery-2 {
   margin-top: 4.5%;
 }
 
-.img-gallery{
+.img-gallery {
   width: 24%;
   height: auto;
+}
+
+#main-2 {
+  background-color: var(--body-background);
+  border-bottom: 2px solid var(--subtitle-color);
+  display: flex;
+}
+
+#vendas-artes {
+  border-right: 1px solid var(--subtitle-color);
+  padding-right: 6%;
+  padding-left: 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#quantidade-artes-vendas {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#subtitulo-artes-vendas {
+  font-size: 20px;
+  color: var(--subtitle-color);
+  margin-bottom: 70px;
+}
+
+.div-lorem {
+  display: flex;
+  padding: 35px;
+}
+#lorem-1,
+#lorem-2 {
+  flex-direction: column;
+}
+#lorem-texto {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+#lorem-assinatura {
+  font-size: 18px;
+  text-decoration: underline;
+}
+#lorem-span {
+  text-decoration: underline;
+  color: var(--color-logo);
+}
+
+#banner {
+  width: 100%;
+}
+#container-banner {
+  display: flex;
+  align-items: flex-end;
+}
+
+#main-3 {
+  background-color: var(--body-background);
+  padding: 150px 5% 150px 5%;
+}
+
+#astronautas-titulo {
+  padding-bottom: 150px;
+}
+
+.astronautas-div {
+  display: flex;
+}
+
+#all-astronautas {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#astronautas-1-2 {
+  flex-direction: column;
+}
+
+#astronautas-3-4 {
+  flex-direction: column;
+}
+
+#astronauta-1,
+#astronauta-2,
+#astronauta-3,
+#astronauta-4 {
+  flex-direction: column;
+}
+
+.titulo-nft {
+  font-size: 30px;
+  padding-bottom: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.artista-astronauta {
+  font-size: 20px;
+  color: var(--subtitle-color);
+  padding-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.preco-astronauta {
+  color: var(--color-logo);
+  font-size: 20px;
+}
+
+.astronauta-img {
+  padding-bottom: 50px;
+}
+
+.vertical-line {
+  width: 1px;
+  height: 100%;
+  float: left;
+}
+
+#main-4 {
+  background-color: var(--body-background);
+  text-align: center;
+}
+
+#title-main-4 {
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+.card {
+  background-color: var(--card-color);
+  font-size: 20px;
+  display: flex;
+  padding: 20px;
+  width: 350px;
+  margin-bottom: 80px;
+}
+.quantidade-fotografias {
+  color: var(--color-logo);
+  font-size: 20px;
+}
+
+.dados-artista {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+#card-2 {
+  background-color: var(--color-logo);
+}
+#card-2-quantidade {
+  color: var(--text-color);
+}
+
+#info-artistas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
