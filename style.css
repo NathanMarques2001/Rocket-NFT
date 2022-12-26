@@ -52,6 +52,7 @@ button {
   height: 100%;
   color: var(--black-text);
   display: flex;
+  justify-content: center;
   align-items: center;
   font-weight: bold;
   font-size: 16px;
@@ -385,4 +386,91 @@ footer {
   width: 20%;
   display: flex;
   justify-content: space-between;
+}
+
+@media only screen and (min-width: 862px) and (max-width: 1153px) {
+  #astronauta-galeria-7,
+  #astronauta-galeria-8 {
+    display: none;
+  }
+}
+
+@media (max-width: 779px) {
+  .vertical {
+    display: none;
+  }
+}
+
+@media (max-width: 999px) {
+  h2 {
+    font-size: 30px;
+  }
+  a {
+    font-size: 13px;
+  }
+  button {
+    font-size: 10px;
+  }
+  .p-main-1 {
+    font-size: 13px;
+  }
+  #img-artistas-agrupados {
+    width: 150px;
+    height: auto;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  #img-selo {
+    width: 160px;
+    height: auto;
+  }
+  #quantidade-artes-vendas {
+    font-size: 40px;
+  }
+  #subtitulo-artes-vendas {
+    font-size: 15px;
+  }
+  #lorem-texto {
+    font-size: 13px;
+  }
+  #lorem-assinatura {
+    font-size: 13px;
+  }
+  .titulo-nft {
+    font-size: 20px;
+  }
+  .artista-astronauta {
+    font-size: 15px;
+  }
+  .preco-astronauta {
+    font-size: 15px;
+  }
+  .arrow-img {
+    width: 50px;
+    height: auto;
+  }
+  #p-large-main-4 {
+    font-size: 20px;
+  }
+  #voltar-topo {
+    width: 60px;
+    height: auto;
+  }
+  #input {
+    font-size: 10px;
+  }
+  #button-footer {
+    font-size: 10px;
+  }
+  .footer-text {
+    font-size: 15px;
+  }
+  #rocket-link {
+    font-size: 15px;
+  }
+  .social-media-img {
+    width: 20px;
+    height: auto;
+  }
 }
