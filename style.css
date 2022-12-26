@@ -347,6 +347,7 @@ footer {
 
 #logo-footer-botao {
   padding: 5%;
+  align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid var(--subtitle-color);
 }
@@ -511,5 +512,103 @@ footer {
   }
   #lorem-assinatura {
     font-size: 9px;
+  }
+}
+
+@media (max-width: 552px) {
+  h2 {
+    font-size: 15px;
+  }
+  a {
+    font-size: 6px;
+  }
+  button {
+    font-size: 6px;
+    padding: 4px;
+  }
+  .p-main-1 {
+    font-size: 6px;
+  }
+  #img-artistas-agrupados {
+    width: 80px;
+    height: auto;
+  }
+  h1 {
+    font-size: 17.5px;
+  }
+  #img-selo {
+    width: 80px;
+    height: auto;
+  }
+  .img-gallery {
+    width: 150px;
+    height: auto;
+  }
+  #quantidade-artes-vendas {
+    font-size: 15px;
+  }
+  #subtitulo-artes-vendas {
+    font-size: 6px;
+  }
+  #lorem-texto {
+    font-size: 6px;
+  }
+  #lorem-assinatura {
+    font-size: 6px;
+  }
+  .astronauta-img {
+    width: 200px;
+  }
+  .titulo-nft {
+    font-size: 20px;
+  }
+  .artista-astronauta {
+    font-size: 15px;
+  }
+  .preco-astronauta {
+    font-size: 15px;
+  }
+  .arrow-img {
+    width: 40px;
+    height: auto;
+  }
+  #p-large-main-4 {
+    font-size: 15px;
+  }
+  #voltar-topo {
+    width: 40px;
+    height: auto;
+  }
+  .card {
+    font-size: 10px;
+    padding: 5px;
+    width: 175px;
+  }
+  .quantidade-fotografias {
+    font-size: 10px;
+  }
+  .foto-artista {
+    width: 50px;
+    height: auto;
+  }
+  #info-artistas {
+    font-size: 12px;
+  }
+  #input {
+    font-size: 6px;
+  }
+  #button-footer {
+    font-size: 6px;
+    padding: 12px;
+  }
+  .footer-text {
+    font-size: 10px;
+  }
+  #rocket-link {
+    font-size: 10px;
+  }
+  .social-media-img {
+    width: 15px;
+    height: auto;
   }
 }
