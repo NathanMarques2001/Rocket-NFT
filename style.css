@@ -474,3 +474,42 @@ footer {
     height: auto;
   }
 }
+
+@media (max-width: 727px) {
+  h2 {
+    font-size: 20px;
+  }
+  a {
+    font-size: 9px;
+  }
+  button {
+    font-size: 10px;
+    padding: 6px;
+  }
+  .p-main-1 {
+    font-size: 9px;
+  }
+  #img-artistas-agrupados {
+    width: 130px;
+    height: auto;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  #img-selo {
+    width: 130px;
+    height: auto;
+  }
+  #quantidade-artes-vendas {
+    font-size: 25px;
+  }
+  #subtitulo-artes-vendas {
+    font-size: 10px;
+  }
+  #lorem-texto {
+    font-size: 9px;
+  }
+  #lorem-assinatura {
+    font-size: 9px;
+  }
+}
