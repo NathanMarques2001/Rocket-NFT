@@ -12,7 +12,7 @@ CSS
 Google Fonts
 
 > ## ⚙️ Como usar
-Clique <code>[neste link](https://nathanmarques2001.github.io/Rocket-NFT/)</code> ou baixe ou clone este repositório para o seu computador. Abra o arquivo HTML em um navegador web para visualizar o site. 
+Clique <code>[neste link](https://nathanmarques2001.github.io/Rocket-NFT/)</code>, ou clone este repositório para o seu computador. Abra o arquivo HTML em um navegador web para visualizar o site. 
 
 >## ✉️ Contato
 
