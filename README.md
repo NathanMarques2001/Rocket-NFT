@@ -1,4 +1,7 @@
 # Rocket NFT
+
+<img src="./assets/banner-readme.PNG" alt="banner" >
+
 Rocket NFT é um mercado digital para colecionáveis em criptos e tokens não fungíveis (NFTs). Compre, venda e descubra ativos digitais exclusivos. Com mais de 10 artistas selecionados, você pode descobrir a verdadeira arte digital e colecionar diversas NFTs.
 
 > ## ✅ Características
