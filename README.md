@@ -15,7 +15,8 @@ Rocket NFT é um mercado digital para colecionáveis em criptos e tokens não fu
 > ## 🛠 Tecnologias utilizadas
 - HTML
 - CSS
-- Google Fonts
+- Git
+- Google Fonts 
 
 > ## ⚙️ Como usar
 Clique <code>[neste link](https://nathanmarques2001.github.io/Rocket-NFT/)</code>, ou clone este repositório para o seu computador. Abra o arquivo HTML em um navegador web para visualizar o site. 
